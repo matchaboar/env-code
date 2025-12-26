@@ -7,10 +7,15 @@ that are needed to build python (google command for OS).
 - Install mise.
 
 ```sh
-# Installs python, virtual env, installs poetry to manage python packages.
+# Installs uv to manage python packages.
 # This is based on .mise.toml dependencies.
 mise install
+uv add sortedcontainers
 ```
+
+## Running
+
+`uv run ./package_name/main.py`
 
 ## Leetcode imports
 

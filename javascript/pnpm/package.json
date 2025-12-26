@@ -1,0 +1,28 @@
+{
+    "name": "flex-template",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "preinstall": "npx --yes only-allow pnpm",
+        "preupdate": "npx --yes only-allow pnpm",
+        "dev": "pnpm run ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@datastructures-js/priority-queue": "^6.3.1",
+        "@datastructures-js/queue": "^4.2.3",
+        "lodash-es": "^4.17.21"
+    },
+    "devDependencies": {
+        "@stylistic/eslint-plugin": "^1.7.0",
+        "eslint": "^8.57.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.29.1"
+    },
+    "engines": {
+        "npm": "please-use-pnpm",
+        "pnpm": ">=10.24.0"
+    },
+    "packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a"
+}

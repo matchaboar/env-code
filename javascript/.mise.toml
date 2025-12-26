@@ -1,6 +1,0 @@
-[env]
-NODE_ENV = 'development'
-MISE_NODE_DEFAULT_PACKAGES_FILE = './.default-npm-packages'
-
-[tools]
-node = "21"
